@@ -1,0 +1,129 @@
+/* header section */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #22C3A3;
+}
+
+.header-logo img{
+    width: 80px;
+    height: auto;
+}
+
+.praimari-menu {
+    text-align: right;
+}
+.praimari-menu ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+.praimari-menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+    
+}
+.praimari-menu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 14px;
+	font-size: 20px;
+	line-height: 50px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.praimari-menu ul li a:hover{
+    color: aqua;
+    background-color: rgb(43, 226, 226);
+}
+
+.banner{
+    background-image: url(./img/slaider.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* banner section */
+.banner-tex {}
+.banner-tex h1{
+    color: #fff;
+    background-color: chartreuse;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+}
+.banner-tex h2{
+    color: #fff;
+    background-color: rgb(170, 136, 26);
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* about section */
+
+.about{
+    background-color: #ecead7;
+}
+
+/* service section */
+
+.service{
+    background-color: rgb(202, 200, 192);
+}
+.card{
+    padding: 25px 0;
+}
+.card span{
+    color: cyan;
+    font-size: 30px;
+    border-radius: 10px 0;
+    width: 50px;
+    height: 60px;
+    background-color: darkorange;
+    display: block;
+    margin: auto;
+    line-height: 60px;
+    
+}
+.card h2{
+    padding: 10px;
+}
+/* product section */
+img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 18px;
+}
+
+.product-right h2{
+    border-bottom: 1px solid black;
+}
+.product-right ul {
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    padding: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/* footer section */
+.footer{
+    background-color: black;
+}
+.footer p{
+    margin-bottom: 0%;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
